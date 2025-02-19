@@ -42,18 +42,9 @@ python app.py
 
 6. Access the application at `http://127.0.0.1:5000` by default
 
-## Project Structure
-appAbsensi/
-├── app.py
-├── models.py
-├── requirements.txt
-└── templates/
-    ├── daftar.html
-    ├── masuk.html
-    ├── ganti_password.html
-    ├── beranda.html
-    ├── tambah_mahasiswa.html
-    └── edit_mahasiswa.html
+## Flowchart
+Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
+![Flowchart](https://github.com/user-attachments/assets/cadb8172-5aa7-4270-a8bf-f61845635c51)
 
 
 ## Youtube
