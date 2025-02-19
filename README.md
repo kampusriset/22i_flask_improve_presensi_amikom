@@ -15,9 +15,9 @@ presensi sederhana AMIKOM :v.
 - CSS Framework: Bootstrap 5
 - Additional Libraries: Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login
 
-## Setup Instructions
+## Intruksi setup
 
-1. Create and activate a virtual environment:
+1. Buat dan aktifkan virtual environment:
 ```bash
 python -m venv venv
 ```
@@ -35,12 +35,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. Run aplikasi:
 ```bash
 python app.py
 ```
 
-6. Access the application at `http://127.0.0.1:5000` by default
+6. Akses file di `http://127.0.0.1:5000` by default
 
 ## Flowchart
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
