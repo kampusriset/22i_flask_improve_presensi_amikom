@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %}Tambah Mahasiswa{% endblock %}
+{% block content %}
+  <h2>Tambah Data Mahasiswa</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label for="nama" class="form-label">Nama</label>
+      <input type="text" class="form-control" name="nama" required>
+    </div>
+    <div class="mb-3">
+      <label for="kelas" class="form-label">Kelas</label>
+      <input type="text" class="form-control" name="kelas" required>
+    </div>
+    <div class="mb-3">
+      <label for="matkul" class="form-label">Mata Kuliah</label>
+      <input type="text" class="form-control" name="matkul" required>
+    </div>
+    <div class="mb-3">
+      <label for="NIM" class="form-label">NIM</label>
+      <input type="number" class="form-control" name="NIM" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Tambah Mahasiswa</button>
+  </form>
+{% endblock %}
