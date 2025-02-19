@@ -20,7 +20,14 @@ presensi sederhana AMIKOM :v.
 1. Create and activate a virtual environment:
 ```bash
 python -m venv venv
-Windows: venv\Scripts\activate     mac: source venv/bin/activate
+```
+Windows: 
+```bash
+venv\Scripts\activate
+```
+mac:
+```bash
+source venv/bin/activate
 ```
 
 2. Install required packages:
