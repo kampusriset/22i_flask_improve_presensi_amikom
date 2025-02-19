@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block title %}Beranda{% endblock %}
+{% block content %}
+  <h2>Data Mahasiswa</h2>
+  
+  <!-- Form pencarian -->
+  <form method="GET" action="{{ url_for('beranda') }}" class="row g-3 mb-3">
+    <div class="col-auto">
+      <input type="text" name="keyword" class="form-control" placeholder="Cari berdasarkan nama" value="{{ keyword }}">
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3">Cari</button>
+    </div>
+  </form>
+
+  <a href="{{ url_for('tambah_mahasiswa') }}" class="btn btn-success mb-3">Tambah Mahasiswa</a>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>Mata Kuliah</th>
+        <th>NIM</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for m in mahasiswa %}
+      <tr>
+        <td>{{ m.nama }}</td>
+        <td>{{ m.kelas }}</td>
+        <td>{{ m.matkul }}</td>
+        <td>{{ m.NIM }}</td>
+        <td>
+          <a href="{{ url_for('edit_mahasiswa', id=m.id) }}" class="btn btn-warning btn-sm">Edit</a>
+          <a href="{{ url_for('hapus_mahasiswa', id=m.id) }}" class="btn btn-danger btn-sm" onclick="return confirm('Yakin hapus data?')">Hapus</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
