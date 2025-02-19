@@ -16,8 +16,16 @@ presensi sederhana AMIKOM :v.
 - Additional Libraries: Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login
 
 ## Intruksi setup
+1. Download file
+Cara biasa tinggal download seperti biasa, masukin ke C:/laragon/www
+buka cmd melalui directory
+atau
+buka file Explorer laragon/www --> buka cmd di directory 
+```bash
+git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
+```
 
-1. Buat dan aktifkan virtual environment:
+2. Buat dan aktifkan virtual environment:
 ```bash
 python -m venv venv
 ```
@@ -30,17 +38,17 @@ mac:
 source venv/bin/activate
 ```
 
-2. Install required packages:
+3. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run aplikasi:
+4. Run aplikasi:
 ```bash
 python app.py
 ```
 
-6. Akses file di `http://127.0.0.1:5000` by default
+5. Akses file di `http://127.0.0.1:5000` by default
 
 ## Flowchart
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
