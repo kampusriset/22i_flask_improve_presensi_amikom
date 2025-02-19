@@ -27,8 +27,9 @@ git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
 ```bash
 cd appAbsensi
 ```
-
-2. Buat dan aktifkan virtual environment:
+2. Aktifkan mysql dari laragon atau xampp import database
+  
+3. Buat dan aktifkan virtual environment:
 ```bash
 python -m venv venv
 ```
@@ -41,17 +42,17 @@ mac:
 source venv/bin/activate
 ```
 
-3. Install required packages:
+4. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run aplikasi:
+5. Run aplikasi:
 ```bash
 python app.py
 ```
 
-5. Akses file di `http://127.0.0.1:5000` by default
+6. Akses file di `http://127.0.0.1:5000` by default
 
 ## Flowchart
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
