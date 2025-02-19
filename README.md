@@ -10,17 +10,17 @@ presensi sederhana AMIKOM :v.
 
 ## teknologi yang digunakan
 - Backend: Python Flask
-- Database: Mysql dari laragon
+- Database: Mysql
 - Frontend: HTML, CSS, JS
 - CSS Framework: Bootstrap 5
 - Additional Libraries: Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login
 
 ## Intruksi setup
-1. Download file
-Cara biasa tinggal download seperti biasa, masukin ke C:/laragon/www
-buka cmd melalui directory
-atau
-buka file Explorer laragon/www --> buka cmd di directory 
+1. Download file, buka file Explorer
+   - laragon/www --> buka cmd di directory
+   - atau xampp/htdocs --> buka cmd di directory
+  
+   - pada CMD
 ```bash
 git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
 ```
