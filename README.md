@@ -24,6 +24,9 @@ buka file Explorer laragon/www --> buka cmd di directory
 ```bash
 git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
 ```
+```bash
+cd appAbsensi
+```
 
 2. Buat dan aktifkan virtual environment:
 ```bash
