@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}Daftar{% endblock %}
+{% block content %}
+  <h2>Daftar</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label for="username" class="form-label">Nama Pengguna</label>
+      <input type="text" class="form-control" name="username" required>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Kata Sandi</label>
+      <input type="password" class="form-control" name="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Daftar</button>
+  </form>
+{% endblock %}
