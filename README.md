@@ -16,7 +16,7 @@ presensi sederhana AMIKOM :v.
 - Additional Libraries: Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login
 
 ## Intruksi setup
-1. Download file, buka cmd di directory file
+1. buka cmd
   
    - pada CMD
 ```bash
