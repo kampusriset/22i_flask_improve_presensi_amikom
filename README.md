@@ -28,8 +28,13 @@ git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
 cd 22i_flask_improve_presensi_amikom/appAbsensi
 ```
 2. Aktifkan mysql dari laragon atau xampp lalu import database
+ 
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
   
-3. Buat dan aktifkan virtual environment:
+4. Buat dan aktifkan virtual environment:
 ```bash
 python -m venv venv
 ```
@@ -40,11 +45,6 @@ venv\Scripts\activate
 mac:
 ```bash
 source venv/bin/activate
-```
-
-4. Install required packages:
-```bash
-pip install -r requirements.txt
 ```
 
 5. Run aplikasi:
