@@ -58,6 +58,12 @@ python app.py
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 ![Flowchart](https://github.com/user-attachments/assets/cadb8172-5aa7-4270-a8bf-f61845635c51)
 
+## Struktur kelompok
+Ketua :  Muhammad yusuf
+Anggota:
+- Arya saultanaya
+- Satria tabah  raharja
+- Irhash zim zam D.P
 
 ## Youtube
 link yt proses
