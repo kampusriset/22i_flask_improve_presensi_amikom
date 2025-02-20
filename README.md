@@ -68,4 +68,4 @@ Anggota :
 - Irhash zim zam D.P
 ```
 ## Youtube
-link yt proses
+[KLIK DISINI UNTUK DOKUMENTASI KAMI DI YOUTUBE](https://youtu.be/p3LubIAqpbY?si=Ii9aeK56Wpie0sCA)
