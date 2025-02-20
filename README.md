@@ -25,7 +25,7 @@ presensi sederhana AMIKOM :v.
 git clone https://github.com/kampusriset/22i_flask_improve_presensi_amikom.git
 ```
 ```bash
-cd appAbsensi
+cd 22i_flask_improve_presensi_amikom/appAbsensi
 ```
 2. Aktifkan mysql dari laragon atau xampp lalu import database
   
