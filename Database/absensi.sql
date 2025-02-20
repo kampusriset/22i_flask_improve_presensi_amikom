@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
   `matkul` varchar(150) NOT NULL,
   `NIM` bigint NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8  COLLATE=utf8mb4;
 
 -- Dumping data for table absensi.mahasiswa: ~1 rows (approximately)
 REPLACE INTO `mahasiswa` (`id`, `nama`, `kelas`, `matkul`, `NIM`) VALUES
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `pengguna` (
   `kata_sandi` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `nama_pengguna` (`nama_pengguna`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8mb4;
 
 -- Dumping data for table absensi.pengguna: ~1 rows (approximately)
 REPLACE INTO `pengguna` (`id`, `nama_pengguna`, `kata_sandi`) VALUES
