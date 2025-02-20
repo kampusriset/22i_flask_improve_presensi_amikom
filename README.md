@@ -16,9 +16,7 @@ presensi sederhana AMIKOM :v.
 - Additional Libraries: Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login
 
 ## Intruksi setup
-1. Download file, buka file Explorer
-   - laragon/www --> buka cmd di directory
-   - atau xampp/htdocs --> buka cmd di directory
+1. Download file, buka cmd di directory file
   
    - pada CMD
 ```bash
