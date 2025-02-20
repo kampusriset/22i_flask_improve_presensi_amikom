@@ -6,7 +6,6 @@
     <title>{% block title %}Aplikasi Mahasiswa AMIKOM{% endblock %}</title>
     <!-- Memuat file Bootstrap secara lokal -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,7 +37,7 @@
       {% endwith %}
       {% block content %}{% endblock %}
     </div>
-    <!-- Memuat Bootstrap Bundle JS secara lokal -->
+    <!-- Memuat Bootstrap Bundle JS -->
     <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
   </body>
 </html>
