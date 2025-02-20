@@ -52,7 +52,7 @@ source venv/bin/activate
 python app.py
 ```
 
-6. Akses file di `http://127.0.0.1:5000` by default
+6. Akses file di  ```bash http://127.0.0.1:5000 ``` by default
 
 ## Flowchart
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
